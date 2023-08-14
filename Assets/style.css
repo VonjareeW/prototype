@@ -61,11 +61,11 @@ input{
 
 #timer{
     font-family: sans-serif;
-    background-color: #5a69f0;
-    color: #eeeeee;
+    background-color: #10e522;
+    color: #070707;
     font-size: x-large;
     text-shadow: .5px .5px black;
-    text-align: center;
+    text-align: right;
 }
 #quiz {
     display: none;
