@@ -1,18 +1,30 @@
--<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Link Javascript with prompt</title>
-    <link rel="stylesheet" href="Assets/style.css" />
-  </head>
-  <body>
-    
-    <div>
-      
-    </div>
-    <script src="Assets/script.js"></script>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Multiple Choice Test</title>
+</head>
+<body>
+  <h1>Multiple Choice Test</h1>
   
-  </body>
+  <p id="question"></p>
+  <form id="choices">
+    <input type="radio" name="choice" value="A"> A<br>
+    <input type="radio" name="choice" value="B"> B<br>
+    <input type="radio" name="choice" value="C"> C<br>
+    <input type="radio" name="choice" value="D"> D<br>
+  </form>
+  
+  <button id="startButton">Start</button>
+  <p id="timer">Time: <span id="timeLeft">30</span> seconds</p>
+  
+  <p>High Score: <span id="highScore">0</span></p>
+  <form id="highScoreForm">
+    <input type="text" id="initials" placeholder="Your initials">
+    <button type="submit" id="submitScore" disabled>Submit Score</button>
+  </form>
+  
+  <!-- Link to the external JavaScript file -->
+  <script src="Assets/javascript.js"></script>
+</body>
 </html>
